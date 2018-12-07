@@ -1,0 +1,277 @@
+* {
+    margin: auto;
+}
+
+ 
+
+body {
+    margin: 10px;
+    background-color: #124E78;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+   
+}
+
+
+.sidebar,
+main,
+footer {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sidebar {
+    position: fixed;
+    margin-top: 60px;
+    width: 20%; 
+    float: right;
+    right: 15px;
+    clear: left;
+}
+
+.sidebar h2 {
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+}
+
+.sidebar ul {
+    font-size: 20px;
+    list-style: none;
+    line-height: 40px;
+}
+.sidebar li {
+    color: #C1CFDA;
+    padding: 10px;
+}
+.sidebar a {
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+}
+.sidebar a:visited { 
+    text-decoration: none;
+    color: #C1CFDA;
+}
+.sidebar a:hover { 
+    text-decoration: none; 
+    color: #EFECCA;
+}
+
+
+header {
+    border: 2px;
+    background-color: #9E2A2B;    
+}
+
+header nav {
+    height: 45px;
+    width: 100%;
+    background-color: #BA3540;    
+}
+
+h1 {
+    font-family: Knewave;
+    color: white;
+    font-size: 3em;
+    padding: 10px;
+}
+
+nav ul {
+    text-align: center;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    margin: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+nav a {
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+}
+nav a:visited { 
+    text-decoration: none;
+}
+nav a:hover { 
+    text-decoration: none; 
+    color:lightgrey;
+}
+
+main {
+    border: 1px;
+    width: calc(80% - 4px - 40px);
+    float: left;
+    
+}
+
+main h2{
+    font-family: knewave;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 25px;
+    line-height: 35px
+}
+
+main div {
+    font-family: knewave;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 23px;
+    
+}
+
+
+
+#picture1 {
+    
+    align-content: center;
+}
+
+main p {
+    text-indent: 30pt;
+    line-height: 200%;
+}
+
+main a {
+    
+    color: white;
+    text-decoration: none;
+}
+
+main a:hover {
+    
+    color: #EFECCA;
+}
+
+#summary {
+    
+    padding: 5px;
+    padding-top: 60px;
+    
+}
+
+h3 {
+    text-decoration: underline;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#references p {
+    
+    padding-bottom: 40px;
+}
+#references a {
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+}
+#references a:visited { 
+    text-decoration: none;
+    color:white;
+}
+#references a:hover { 
+    text-decoration: none; 
+    color:antiquewhite;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 20px;
+}
+
+#front {
+    
+    text-align: center;
+}
+#cover {
+    width: 90%;
+}
+
+#fb1 {
+    
+    display: inline;
+    width: 45%;
+    float: left;
+}
+
+#fb2 {
+    display: inline;
+    width: 45%;  
+    float: right;
+}
+
+#pp {
+    
+    clear: both;
+}
+
+center {
+    
+    padding-bottom: 20px;
+}
+video {
+    
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 2%;
+}
+
+caption { 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-content: center;
+}
+#references ul {
+    padding: 8px;
+    list-style: none;
+    line-height: 200%;
+}
+footer {
+    border: 1px;
+    clear:both;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+}
+#aboutthe {
+    text-align: center;
+}
+#gps {
+    padding-top: 20px;
+}
+#suggestions {
+    line-height: 200%;
+}
+
+@media only screen and (max-width: 425px) {
+    .sidebar, main {
+        width: calc(100% - 4px - 40px);
+    }
+    nav li { 
+        font-size: 15px;  
+    }
+    #hometag {
+        display: none;
+    }
+    h1 {
+        font: 10px;
+    }
+    header nav { 
+        height: 20%;
+    }
+}
